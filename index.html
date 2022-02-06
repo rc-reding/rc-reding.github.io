@@ -1,1 +1,459 @@
-Hello World
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="generator" content="Hugo 0.92.1" />
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Carlos Reding, PhD - Research Fellow</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href=https://rc-reding.github.io/apple-touch-icon.png>
+	<link rel="icon" type="image/png" sizes="32x32" href=https://rc-reding.github.io/favicon-32x32.png>
+	<link rel="icon" type="image/png" sizes="16x16" href=https://rc-reding.github.io/favicon-16x16.png>
+	<link rel="manifest" href=https://rc-reding.github.io/site.webmanifest>
+	<link rel="mask-icon" href=https://rc-reding.github.io/safari-pinned-tab.svg color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="alternate" type="application/rss+xml" href="https://rc-reding.github.io/index.xml" title="Carlos Reding, PhD " />
+	<meta property="og:title" content="Carlos Reding, PhD " />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://rc-reding.github.io/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Carlos Reding, PhD "/>
+<meta name="twitter:description" content=""/>
+<link rel="stylesheet" type="text/css" media="screen" href=https://rc-reding.github.io/css/main.css>
+
+	
+
+    <script src=https://rc-reding.github.io/js/feather.min.js></script></head>
+
+
+	<body>
+		<div class="container wrapper">
+			<div class="header">
+	<img src=https://rc-reding.github.io/profile.jpg class="profile_image">
+	<h1 class="site-title">Carlos Reding, PhD </h1>
+	<div class="site-affilation">
+		<span class="affilation"><ul class="flat">
+				<li class="position">Research Fellow, Stanford University</li>
+				<li class="email">rc_reding [at] teknik.io</li>
+			</ul></span>
+		
+
+		<nav class="nav social">
+			<ul class="flat"><a href="https://github.com/rc-reding" title="GitHub"><i data-feather="github"></i></a>
+
+
+<a href="https://twitter.com/rc_reding" title="Twitter"><i data-feather="twitter"></i></a>
+
+
+<a href="https://linkedin.com/in/rc-reding/" title="LinkedIn"><i data-feather="linkedin"></i></a>
+
+
+
+				
+				| &nbsp;<a href="#" class="blog_cv">[blog]</a>
+				<a href="files/Reding_CV.pdf" class="blog_cv">[cv]</a>
+				
+				
+			</ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+		</ul>
+	</nav>
+</div>
+
+			<div class="introduction"><span>
+		<p>I am a biologist broadly interested in the dynamics of microbial populations and complex gene regulatory
+neteworks. I also love coding and electronics as hobbies&hellip; so it didn&rsquo;t take long before I started to use
+them for my work. While my interest in microbes revolve around how rapid they can become resistant to
+antimicrobials, or the regulatory network of efflux pumps, I also love to develop (<a href="https://ecoevocommunity.nature.com/posts/14444-making-a-spatial-ecology-of-microbes-lab-on-the-cheap">and 3D print!</a>)
+new gadgets that can be used in the laboratory or commercially. In the past I co-developed a compact
+spectrophotometer (more below!), and currently I work <a href="http://web.stanford.edu/group/steinmetzlab/cgi-bin/wordpress/">Prof Lars Steinmetz&rsquo;s</a>
+laboratory, in the Department of Genetics at Stanford University, where I use impedance spectroscopy to detect
+SARS-CoV-2.</p>
+<p>If you want to know how a biologist ended up involved in technology development and software engineering,
+or if you just want to say hi, drop me an email <del><em>to reding [at] stanford.edu</em></del> or get in touch through
+twitter.</p>
+
+	</span>
+	<br><span>
+		<b>Interests.</b> Assay development [hardware+software], Quantitative Biology, Experimental Evolution, Mathematical Modelling
+	</span>
+</div>
+
+			<div class="introduction">
+	
+	<h4>Projects</h4>
+	<ul>
+		<li>
+			<a href="https://academic.oup.com/mbe/article/38/9/3847/6161781" class="project"> What antibiotic concentrations lead to the fastest evolution of resistance?</a>
+
+			
+
+			
+			<span class="project_description">
+				Resistant mutants have annoyingly followed the introduction of virtually
+every antibiotic introduced into the clinic since the discovery of penicillin. Why? The
+world of antibiotic use can be incredibly convoluted due to the lack of formal rationales
+to define the duration or dose of antibiotic therapies. Whence the variation (and
+contradictions!) guidelines of different countries across the globe about how to use these
+drugs. In this project I combined mathematical modelling, experimental evolution and genome
+sequencing to determine&mdash;and more importantly redict&mdash;which antibiotic concentrations will
+lead to resistant fastest. Conventional wisdom holds that resistant mutants emerge between two
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0966842X15000165">arbitrary</a> drug
+concentrations that define the mutant selection window. What we found is that, for a given
+species, there is a continuum of mutation windows many of which fall outside of the
+traditional mutant selection window. For details&hellip; read the paper (link on the title)!
+A cool detail about the paper is that we foud <em>de novo</em> mutants within 3 days after exposure
+to erythromycin with amplifications of the operon <em>acr</em> (responsible for the multi-drug
+efflux pump AcrAB-TolC). Mutation and timing eerily similar to <a href="https://www.pnas.org/content/pnas/112/11/3511.full.pdf">clinical data</a>.
+			</span>
+			
+
+		</li>
+		
+		<li>
+			<a href="https://www.biorxiv.org/content/10.1101/806232v1.full.pdf" class="project"> Evolution of antibiotic resistance in 2D space</a>
+
+			
+
+			
+			<span class="project_description">
+				Antibiotic adaptation is commonly studied with experimental
+setups that keep drug concentration constant, say, serial dilutions in test tubes
+or microtitre plates. Inside the body, or in the environment, antibiotics diffuse and their
+concentration changes over time. How does this circumstance shape the evolution of <em>E. coli</em>
+and how does it compare to conventional experimental setups? In this project we combined
+mathematical modelling, image analysis, software engineering and a computerised camera to
+track the growth and evolution of <em>Escherichia coli</em> growing on agar plates, in assays that
+resemble <a href="https://en.wikipedia.org/wiki/Antibiotic_sensitivity_testing">antibiograms</a>. We
+found that antibiotics create reservoirs of carbon due to the inhibition they exert on the
+becterium. Combined with the progressive exposure to the drug in cells growing beyond the
+immediate viccinity of the antibiotic, due diffusion, we found the first signs of resistance
+within 24h. When we used a construct labelled with green fluorescent protein, we could track
+the relative abundance of mutants with increasing copies of the operon <em>acr</em> and verify that
+Ronald Fisher was kind of right in the 1930s with his thing about benefitial mutations
+expanding as waves! More details in the paper / preprint!
+			</span>
+			
+
+		</li>
+		
+		<li>
+			<a href="http://mmems.org/limo/" class="project"> Biodynamic Devices &amp; the Light Modulator</a>
+
+			
+
+			
+			<span class="project_description">
+				In this project I explored along Profs <a href="https://mathsandmicrobes.org/">Ivana Gudelj</a>
+and <a href="http://people.exeter.ac.uk/reb217/rebHomePage/home.html">Robert Beardmore</a> the use of
+image analysis to develop an affordable spectrophotometer, which led to the creation of
+<a href="http://mmems.org/limo/">Biodynamic Devices</a>. It&rsquo;s patent-pending (see below!), so all I can
+say is that here I developed my python skills with the development of the device&rsquo;s backend,
+API, communication stack, and hardware control along with electrical engineering skills. A
+very fun project indeed!
+			</span>
+			
+
+		</li>
+		</ul>
+	
+</div>
+
+			<div class="introduction">
+	
+	<h4>Patents</h4><div class="year">2019</div>
+
+	<ul>
+		
+		    <li>
+			    
+			        <a href="https://patents.google.com/patent/WO2020165582A1/en?oq=WO2020165582A1" class="publications"> Test Apparatus, </a>
+		        
+			    WO 2020/165582 A1 WIPO (PCT).
+
+		        <span class="code_blog">
+			        
+			            
+        			        [<a href="https://patentimages.storage.googleapis.com/f5/9e/a8/22110711018d4f/WO2020165582A1.pdf">pdf</a>]
+			            
+
+			            
+			        
+
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    Robert Beardmore, Ivana Beardmore, Kai Longshaw, <strong>Carlos Reding</strong>
+			    </span>
+		    </li>
+		
+	</ul></div>
+
+			<div class="introduction">
+	
+	<h4>Publications</h4><div class="year">2021</div>
+
+	<ul>
+		
+		    <li>
+			    
+			        <a href="https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab025/6161781" class="publications"> The Antibiotic Dosage of Fastest Resistance Evolution: gene amplifications underpinning the inverted-U, </a>
+		        
+			    <em>Molecular Biology &amp; Evolution</em>.
+
+		        <span class="code_blog">
+			        
+			            
+        			        [<a href="https://academic.oup.com/mbe/advance-article-pdf/doi/10.1093/molbev/msab025/36786722/msab025.pdf">pdf</a>]
+			            
+
+			            
+			        
+
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    <strong>Carlos Reding</strong>, Pablo Catalán, Gunther Jansen, Tobias Bergmiller, Philip Rosenstiel, Hinrich Schulenberg, Robert Beardmore
+			    </span>
+		    </li>
+		
+	</ul><div class="year">2017</div>
+
+	<ul>
+		
+		    <li>
+			    
+			        <a href="https://www.nature.com/articles/s41559-016-0050" class="publications"> The unconstrained evolution of fast and eﬃcient antibiotic-resistant bacterial genomes, </a>
+		        
+			    <em>Nature Ecology &amp; Evolution</em>.
+
+		        <span class="code_blog">
+			        
+			            
+        			        [<a href="files/2017_Reding.pdf">pdf</a>]
+			            
+
+			            
+			        
+
+			        
+			            
+
+		                
+	                        [<a href="https://nature.altmetric.com/details/15948113/news">press</a>]
+			            
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    <strong>C. Reding-Roman</strong>, S. Duxbury, M. Hewlett, F. Gori, I. Gudelj and R. Beardmore
+			    </span>
+		    </li>
+		
+	</ul><div class="year">2015</div>
+
+	<ul>
+		
+		    <li>
+			    
+			        <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002104" class="publications"> Using a Sequential Regimen to Eliminate Bacteria at Sub-Lethal Antibiotic Dosages, </a>
+		        
+			    <em>PLoS Biology</em>.
+
+		        <span class="code_blog">
+			        
+			            
+        			        [<a href="https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1002104&amp;type=printable">pdf</a>]
+			            
+
+			            
+			        
+
+			        
+			            
+
+		                
+	                        [<a href="https://www.bbc.com/news/health-32218624">press</a>]
+			            
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    A. Fuentes-Hernandez, J. Plucain, F. Gori, R. Peña-Miller, <strong>C. Reding</strong>, G. Jansen, H. Schulenberg, I. Gudelj, and R. Beardmore
+			    </span>
+		    </li>
+		
+	</ul><div class="year">2014</div>
+
+	<ul>
+		
+		    <li>
+			    
+			        <a href="https://royalsocietypublishing.org/doi/abs/10.1098/rsif.2013.1035" class="publications"> Testing the optimality properties of a dual antibiotic treatment in a two-locus, two-allele model, </a>
+		        
+			    <em>Journal of the Royal Society Interface</em>.
+
+		        <span class="code_blog">
+			        
+			            
+        			        [<a href="https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2013.1035">pdf</a>]
+			            
+
+			            
+			        
+
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    R. Peña-Miller, A. Fuentes-Hernandez, <strong>C. Reding</strong>, I. Gudelj and R. Beardmore
+			    </span>
+		    </li>
+		
+	</ul><div class="year">Preprints</div>
+
+	<ul>
+		
+		    <li>
+			    
+			        <a href="https://www.biorxiv.org/cgi/content/short/2020.12.14.422780v4" class="publications"> Neighbours can modulate drug diffusion and change antimicrobial sensitivity of specific bacteria, </a>
+		        
+			    bioRxiv <em>(in review)</em>.
+
+		        <span class="code_blog">
+			        
+			            
+        			        [<a href="https://www.biorxiv.org/content/10.1101/2020.12.14.422780v4.full.pdf">pdf</a>]
+			            
+
+			            
+        			        [<a href="https://github.com/rc-reding/papers/tree/master/EvolProof_2020">code</a>]
+			            
+			        
+
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    <strong>Carlos Reding</strong>
+			    </span>
+		    </li>
+		
+		    <li>
+			    
+			        <a href="https://www.biorxiv.org/content/10.1101/810259v5" class="publications"> Fitness competition assays can fail to predict plasmid maintenance in ‘unfit’ bacterial populations, </a>
+		        
+			    bioRxiv <em>(in review)</em>.
+
+		        <span class="code_blog">
+			        
+			            
+        			        [<a href="https://www.biorxiv.org/content/10.1101/810259v5.full.pdf">pdf</a>]
+			            
+
+			            
+			        
+
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    <strong>Carlos Reding</strong>
+			    </span>
+		    </li>
+		
+		    <li>
+			    
+			        <a href="https://www.biorxiv.org/content/10.1101/806232v1" class="publications"> Imaging Fisher travelling waves in antibiograms: emergence of antibiotic-resistance patterns, </a>
+		        
+			    bioRxiv <em>(in review)</em>.
+
+		        <span class="code_blog">
+			        
+			            
+        			        [<a href="https://www.biorxiv.org/content/10.1101/806232v1.full.pdf">pdf</a>]
+			            
+
+			            
+			        
+
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    <strong>Carlos Reding+</strong> , Mark Hewlett+ , Tobias Bergmiller, Ivana Gudelj, Robert Beardmore
+			    </span>
+		    </li>
+		
+		    <li>
+			    
+			        <p class="publications"> Antibiotic resistance phenotypes exhibit diminishing returns in the chromosomal copy number of a scalable effux operon, </p>
+			    
+			    .
+
+		        <span class="code_blog">
+			        
+
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    Pablo Catalán+ , <strong>Carlos Reding+</strong> , Robert Beardmore
+			    </span>
+		    </li>
+		
+	</ul><div class="year">PhD Thesis</div>
+
+	<ul>
+		
+		    <li>
+			    
+			        <a href="https://ore.exeter.ac.uk/repository/handle/10871/19693" class="publications"> Ecological conditions leading to the seep of antibiotic resistance genes in the model-type bacterium Escherichia coli, </a>
+		        
+			    University of Exeter, United Kingdom.
+
+		        <span class="code_blog">
+			        
+			            
+        			        [<a href="https://ore.exeter.ac.uk/repository/bitstream/handle/10871/19693/RedingRomanR.pdf?sequence=1&amp;isAllowed=n">pdf</a>]
+			            
+
+			            
+			        
+
+			        
+		        </span>
+
+			    <span class="collaborators">
+				    <strong>R.C. Reding Roman</strong>
+			    </span>
+		    </li>
+		
+	</ul></div>
+
+		</div>
+		</div>
+		<div class="footer wrapper">
+	<nav class="nav">
+		<div><a href="https://github.com/hadisinaee/avicenna">Avicenna Theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<script>
+	feather.replace()
+
+</script>
+	</body>
+
+</html>
